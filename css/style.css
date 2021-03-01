@@ -27,7 +27,7 @@ body {
 
 .about h1 {
     font-weight: 900;
-    color: #ffffff;
+    color: white;
     line-height: 34px;
     margin-top: 8px;
     margin-left: -20px;
@@ -35,7 +35,101 @@ body {
 
 .about h3 {
     font-size: 18px;
-    color: #ffffff;
+    color: white;
     font-family: 'Owsald', sans-serif;
     margin-top: 5px;
+}
+
+.about p {
+    font-size: 14px;
+    margin-top: 15px;
+    color: white;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.personal-info {
+    float: left;
+    margin-top: 30px;
+    width: 310px;
+    min-height: 230px;
+    margin-left: 10px;
+    background: url(../img/personal-info-sep.png) no-repeat left top;
+    padding: 20px 0 19px 20px;
+}
+
+.personal-info li {
+    line-height: 12px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    float: left;
+    width: 293px;
+}
+
+.personal-info li label {
+    color: white;
+    float: left;
+    padding: 4px 7px;
+    font-weight: 550;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.personal-info li span {
+    float: right;
+    width: 220px;
+    padding-top: 4px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    position: relative;
+    overflow: visible;
+}
+
+span.socials-text {
+    position: absolute;
+    right: 0px;
+    color: white;
+    padding: 2px 9px;
+    font-size: 22px;
+    cursor: pointer;
+    top: 10px;
+    border-radius: 70px;
+}
+
+i.fa.fa-share {
+    color: white !important;
+}
+
+ul.socialicons {
+    opacity: 0;
+    top: -1px;
+    position: relative;
+    transition: all ease 1s;
+    z-index: -1;
+    left: 7px;
+}
+
+.pulse-button {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    line-height: 15px;
+    border: none;
+    box-shadow: 0 0 0 0 rgba(101, 100, 100);
+    background-color: #cf355c;
+}
+
+.menu {
+    height: 100px;
+    background-color: #eded;
+    position: relative;
+    padding-left: 130px;
+    padding-right: 130px;
 }
