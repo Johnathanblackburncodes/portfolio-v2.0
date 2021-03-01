@@ -1,5 +1,25 @@
 {
   "devDependencies": {
     "prettier": "2.2.1"
-  }
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "name": "portfolio-v2.0",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cocodes/portfolio-v2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cocodes/portfolio-v2.0/issues"
+  },
+  "homepage": "https://github.com/cocodes/portfolio-v2.0#readme"
 }
