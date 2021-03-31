@@ -21,20 +21,20 @@
   padding: 12px 0 0 19px; }
 
 .about .photo-inner img {
-  background-color: #FFF; }
+  background-color: #fff; }
 
 .about h1 {
   font-weight: 900;
-  color: #FFF;
+  color: #fff;
   line-height: 34px;
   margin-top: 8px; }
 
 .about h3 {
   margin-top: 5px;
   font-size: 18px;
-  color: #FFF;
+  color: #fff;
   line-height: 18px;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 h3.main-heading .now {
   background: #cf455c !important; }
@@ -45,7 +45,7 @@ h3.main-heading .now {
   color: #fff;
   font-weight: 400;
   line-height: 24px;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 /* Personal info */
 .personal-info {
@@ -77,7 +77,7 @@ span.word-wrap a {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   text-transform: uppercase;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 .personal-info li span {
   float: right;
@@ -85,7 +85,7 @@ span.word-wrap a {
   padding-top: 4px;
   font-weight: 400;
   color: #fff;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase; }
 
 /* Resume Section */
@@ -94,7 +94,8 @@ span.word-wrap a {
   padding: 0px 0px;
   overflow: hidden; }
 
-.skills-section, .timeline-section {
+.skills-section,
+.timeline-section {
   float: left; }
 
 /* Timeline Section */
@@ -220,9 +221,10 @@ span.word-wrap a {
   width: 25%; }
 
 .close {
-  opacity: .7; }
+  opacity: 0.7; }
 
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff !important; }
 
@@ -341,7 +343,7 @@ img.hover-shadow {
   height: 185px; }
 
 #portfolio-list img {
-  background-color: #FFF;
+  background-color: #fff;
   height: 120px;
   width: 180px; }
 
@@ -352,7 +354,7 @@ img.hover-shadow {
   font-size: 14px;
   margin-top: 15px;
   font-weight: 400;
-  color: #3A3A3A; }
+  color: #3a3a3a; }
 
 #portfolio-list li .categorie {
   font-size: 11px;
@@ -374,7 +376,7 @@ img.hover-shadow {
   margin-bottom: 5px;
   text-transform: uppercase;
   font-size: 13px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   letter-spacing: 2; }
 
 .cats-filter li a:hover {
@@ -389,15 +391,16 @@ img.hover-shadow {
 /*-------------------------------------------------------*/
 #contact {
   overflow: hidden;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
-.contact-info, .contact-form {
+.contact-info,
+.contact-form {
   float: left;
   padding: 0 20px; }
 
 .contact-info {
   width: 250px;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 .contact-form {
   width: 530px; }
@@ -413,15 +416,15 @@ img.hover-shadow {
   line-height: 20px;
   color: #666;
   overflow: hidden;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 /* Google map */
 #map {
   height: 300px;
   margin-bottom: 25px;
   width: 100%;
-  border-bottom: 1px solid #CCC;
-  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
   width: 100%; }
 
 #map iframe {
@@ -430,11 +433,12 @@ img.hover-shadow {
 /*-------------------------------------------------------*/
 /* Forms */
 /*-------------------------------------------------------*/
-form .input, form textarea {
+form .input,
+form textarea {
   -moz-box-shadow: inset 0 5px 16px -13px #333;
   /* -webkit-box-shadow: inset 0 5px 16px -13px #333; */
   /* box-shadow: inset 0 5px 16px -13px #333; */
-  background-color: #FDFDFD;
+  background-color: #fdfdfd;
   border: 1px solid #ced4da;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -477,6 +481,6 @@ form p label {
   background-color: #cf455c; }
 
 footer {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   font-size: 14px; }
